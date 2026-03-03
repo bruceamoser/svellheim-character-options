@@ -1,0 +1,472 @@
+{
+  "source": "campaign/docs/01-The-World/03-Pantheon/01-The-Pantheon.adoc",
+  "generatedAt": "2026-02-25T01:09:28.017Z",
+  "gods": [
+    {
+      "id": "bragi",
+      "name": "Bragi",
+      "epithet": "The Mead-Bonded",
+      "subtitle": "God of Skalds and Boasts",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "creation",
+          "label": "Creation"
+        },
+        {
+          "id": "knowledge",
+          "label": "Knowledge"
+        },
+        {
+          "id": "sun",
+          "label": "Sun"
+        },
+        {
+          "id": "trickery",
+          "label": "Trickery"
+        }
+      ]
+    },
+    {
+      "id": "forseti",
+      "name": "Forseti",
+      "epithet": "The Arbiter",
+      "subtitle": "God of Justice and Mediation",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "fate",
+          "label": "Fate"
+        },
+        {
+          "id": "knowledge",
+          "label": "Knowledge"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        },
+        {
+          "id": "vengeance",
+          "label": "Vengeance"
+        }
+      ]
+    },
+    {
+      "id": "freyr",
+      "name": "Freyr",
+      "epithet": "Ingvi",
+      "subtitle": "Lord of the Stack, The Peace-Giver",
+      "group": "The Vanir (Lords of the Wild)",
+      "domains": [
+        {
+          "id": "life",
+          "label": "Life"
+        },
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        },
+        {
+          "id": "sun",
+          "label": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "frigg",
+      "name": "Frigg",
+      "epithet": "The Hearth-Mother",
+      "subtitle": "Weaver of Clouds, Keeper of Names",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "knowledge",
+          "label": "Knowledge"
+        },
+        {
+          "id": "life",
+          "label": "Life"
+        },
+        {
+          "id": "love",
+          "label": "Love"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        }
+      ]
+    },
+    {
+      "id": "grimnir",
+      "name": "Grimnir",
+      "epithet": "The All-Father",
+      "subtitle": "The Masked One, Valfodr, God of Gallows and Runes",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "death",
+          "label": "Death"
+        },
+        {
+          "id": "runes",
+          "label": "Runes"
+        },
+        {
+          "id": "trickery",
+          "label": "Trickery"
+        },
+        {
+          "id": "war",
+          "label": "War"
+        }
+      ]
+    },
+    {
+      "id": "hallinskidi",
+      "name": "Hallinskidi",
+      "epithet": "The Watchman",
+      "subtitle": "The White God, Keeper of the Horn",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "fate",
+          "label": "Fate"
+        },
+        {
+          "id": "knowledge",
+          "label": "Knowledge"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        },
+        {
+          "id": "sun",
+          "label": "Sun"
+        }
+      ]
+    },
+    {
+      "id": "hel",
+      "name": "Hel",
+      "epithet": "Queen of the Dead",
+      "subtitle": "The Hostess",
+      "group": "The Outsiders (The Jotnar)",
+      "domains": [
+        {
+          "id": "death",
+          "label": "Death"
+        },
+        {
+          "id": "frost",
+          "label": "Frost"
+        },
+        {
+          "id": "knowledge",
+          "label": "Knowledge"
+        },
+        {
+          "id": "fate",
+          "label": "Fate"
+        }
+      ]
+    },
+    {
+      "id": "idunn",
+      "name": "Idunn",
+      "epithet": "The Keeper of Apples",
+      "subtitle": "Goddess of Youth and Renewal",
+      "group": "The Vanir (Lords of the Wild)",
+      "domains": [
+        {
+          "id": "creation",
+          "label": "Creation"
+        },
+        {
+          "id": "life",
+          "label": "Life"
+        },
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        }
+      ]
+    },
+    {
+      "id": "mardoll",
+      "name": "Mardöll",
+      "epithet": "The Lady of the Field",
+      "subtitle": "Vanadis, Goddess of War and Magic",
+      "group": "The Vanir (Lords of the Wild)",
+      "domains": [
+        {
+          "id": "life",
+          "label": "Life"
+        },
+        {
+          "id": "love",
+          "label": "Love"
+        },
+        {
+          "id": "runes",
+          "label": "Runes"
+        },
+        {
+          "id": "war",
+          "label": "War"
+        }
+      ]
+    },
+    {
+      "id": "njoror",
+      "name": "Njoror",
+      "epithet": "The Sea-King",
+      "subtitle": "God of Wind, Wealth, and Thaw",
+      "group": "The Vanir (Lords of the Wild)",
+      "domains": [
+        {
+          "id": "creation",
+          "label": "Creation"
+        },
+        {
+          "id": "frost",
+          "label": "Frost"
+        },
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "storm",
+          "label": "Storm"
+        }
+      ]
+    },
+    {
+      "id": "skadi",
+      "name": "Skadi",
+      "epithet": "The Snow-Shoe Goddess",
+      "subtitle": "Wolf-Bride, Lady of Vengeance",
+      "group": "The Vanir (Lords of the Wild)",
+      "domains": [
+        {
+          "id": "death",
+          "label": "Death"
+        },
+        {
+          "id": "frost",
+          "label": "Frost"
+        },
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "vengeance",
+          "label": "Vengeance"
+        }
+      ]
+    },
+    {
+      "id": "surt",
+      "name": "Surt",
+      "epithet": "The Black One",
+      "subtitle": "Lord of Muspelheim",
+      "group": "The Outsiders (The Jotnar)",
+      "domains": [
+        {
+          "id": "creation",
+          "label": "Creation"
+        },
+        {
+          "id": "death",
+          "label": "Death"
+        },
+        {
+          "id": "sun",
+          "label": "Sun"
+        },
+        {
+          "id": "war",
+          "label": "War"
+        }
+      ]
+    },
+    {
+      "id": "thunar",
+      "name": "Thunar",
+      "epithet": "The Thunderer",
+      "subtitle": "The Warder, God of the Common Man",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        },
+        {
+          "id": "storm",
+          "label": "Storm"
+        },
+        {
+          "id": "war",
+          "label": "War"
+        }
+      ]
+    },
+    {
+      "id": "tyr",
+      "name": "Tyr",
+      "epithet": "The Hand Given",
+      "subtitle": "God of Law and Sacrifice",
+      "group": "The Aesir (Guardians of Order)",
+      "domains": [
+        {
+          "id": "fate",
+          "label": "Fate"
+        },
+        {
+          "id": "knowledge",
+          "label": "Knowledge"
+        },
+        {
+          "id": "protection",
+          "label": "Protection"
+        },
+        {
+          "id": "war",
+          "label": "War"
+        }
+      ]
+    },
+    {
+      "id": "ullr",
+      "name": "Ullr",
+      "epithet": "The Glory-Hunter",
+      "subtitle": "God of the Bow and the Duel",
+      "group": "The Vanir (Lords of the Wild)",
+      "domains": [
+        {
+          "id": "fate",
+          "label": "Fate"
+        },
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "trickery",
+          "label": "Trickery"
+        },
+        {
+          "id": "war",
+          "label": "War"
+        }
+      ]
+    },
+    {
+      "id": "ymir",
+      "name": "Ymir",
+      "epithet": "The Primal Frost",
+      "subtitle": "The First Giant",
+      "group": "The Outsiders (The Jotnar)",
+      "domains": [
+        {
+          "id": "frost",
+          "label": "Frost"
+        },
+        {
+          "id": "death",
+          "label": "Death"
+        },
+        {
+          "id": "nature",
+          "label": "Nature"
+        },
+        {
+          "id": "strength",
+          "label": "Strength"
+        }
+      ]
+    }
+  ],
+  "domains": [
+    {
+      "id": "creation",
+      "label": "Creation"
+    },
+    {
+      "id": "death",
+      "label": "Death"
+    },
+    {
+      "id": "fate",
+      "label": "Fate"
+    },
+    {
+      "id": "frost",
+      "label": "Frost"
+    },
+    {
+      "id": "knowledge",
+      "label": "Knowledge"
+    },
+    {
+      "id": "life",
+      "label": "Life"
+    },
+    {
+      "id": "love",
+      "label": "Love"
+    },
+    {
+      "id": "nature",
+      "label": "Nature"
+    },
+    {
+      "id": "protection",
+      "label": "Protection"
+    },
+    {
+      "id": "runes",
+      "label": "Runes"
+    },
+    {
+      "id": "storm",
+      "label": "Storm"
+    },
+    {
+      "id": "strength",
+      "label": "Strength"
+    },
+    {
+      "id": "sun",
+      "label": "Sun"
+    },
+    {
+      "id": "trickery",
+      "label": "Trickery"
+    },
+    {
+      "id": "vengeance",
+      "label": "Vengeance"
+    },
+    {
+      "id": "war",
+      "label": "War"
+    }
+  ]
+}

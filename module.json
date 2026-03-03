@@ -1,0 +1,103 @@
+{
+  "id": "svellheim-character-options",
+  "title": "Svellheim: Character Options",
+  "description": "Svellheim setting character options (ancestries, cultures, careers) for the Draw Steel system.",
+  "url": "https://github.com/bruceamoser/svellheim-character-options",
+  "manifest": "https://github.com/bruceamoser/svellheim-character-options/releases/latest/download/module.json",
+  "download": "https://github.com/bruceamoser/svellheim-character-options/releases/download/v0.3.4/svellheim-character-options-v0.3.4.zip",
+  "version": "0.3.4",
+  "authors": [
+    {
+      "name": "Bruce A. Moser"
+    }
+  ],
+  "compatibility": {
+    "minimum": "11",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "draw-steel"
+      }
+    ]
+  },
+  "scripts": [
+    "scripts/register-languages.js",
+    "scripts/register-faith.js",
+    "scripts/register-polyglot.js",
+    "scripts/compendium-installer.js"
+  ],
+  "packs": [
+    {
+      "name": "svellheim-origins",
+      "label": "Svellheim Origins",
+      "path": "packs/svellheim-origins",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-faith",
+      "label": "Svellheim Faith (Gods & Domains)",
+      "path": "packs/svellheim-faith",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-rewards",
+      "label": "Svellheim Rewards (Projects & Treasures)",
+      "path": "packs/svellheim-rewards",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-npcs",
+      "label": "Svellheim NPCs",
+      "path": "packs/svellheim-npcs",
+      "type": "Actor",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-monsters",
+      "label": "Svellheim Monsters",
+      "path": "packs/svellheim-monsters",
+      "type": "Actor",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-montage-tests",
+      "label": "Svellheim Montage Tests",
+      "path": "packs/svellheim-montage-tests",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-negotiation-tests",
+      "label": "Svellheim Negotiation Tests",
+      "path": "packs/svellheim-negotiation-tests",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-items",
+      "label": "Svellheim Campaign Items",
+      "path": "packs/svellheim-items",
+      "type": "Item",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-player-journals",
+      "label": "Svellheim Player Journals",
+      "path": "packs/svellheim-player-journals",
+      "type": "JournalEntry",
+      "system": "draw-steel"
+    },
+    {
+      "name": "svellheim-handout-journals",
+      "label": "Svellheim Handout Journals",
+      "path": "packs/svellheim-handout-journals",
+      "type": "JournalEntry",
+      "system": "draw-steel"
+    }
+  ]
+}

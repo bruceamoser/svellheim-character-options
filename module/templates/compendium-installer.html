@@ -1,0 +1,41 @@
+<form class="svellheim-compendium-installer">
+  <p style="margin-bottom: 0.75em;">
+    Select which compendium packs to import into the world. Each pack will be
+    placed inside its own folder. Packs already imported are marked with a
+    <i class="fas fa-check-circle" style="color: green;"></i>.
+  </p>
+
+  <div style="margin-bottom: 0.5em; display: flex; gap: 0.5em;">
+    <button type="button" class="select-all" style="flex: 1;">
+      <i class="fas fa-check-double"></i> Select All
+    </button>
+    <button type="button" class="select-none" style="flex: 1;">
+      <i class="fas fa-times"></i> Select None
+    </button>
+  </div>
+
+  <hr />
+
+  <div style="max-height: 400px; overflow-y: auto;">
+    {{#each packs}}
+    <div style="display: flex; align-items: center; padding: 4px 0; border-bottom: 1px solid var(--color-border-light-tertiary, #ddd);">
+      <input type="checkbox" name="{{this.name}}" id="pack-{{this.name}}"
+             {{#if this.checked}}checked{{/if}}
+             style="margin-right: 8px;" />
+      <label for="pack-{{this.name}}" style="flex: 1; cursor: pointer;">
+        {{this.label}}
+        <span style="opacity: 0.6; font-size: 0.85em;">({{this.type}}, {{this.count}} entries)</span>
+      </label>
+      {{#if this.imported}}
+      <i class="fas fa-check-circle" title="Previously imported" style="color: green; margin-left: 4px;"></i>
+      {{/if}}
+    </div>
+    {{/each}}
+  </div>
+
+  <hr />
+
+  <button type="submit" style="width: 100%; margin-top: 0.5em;">
+    <i class="fas fa-download"></i> Import Selected Packs
+  </button>
+</form>
