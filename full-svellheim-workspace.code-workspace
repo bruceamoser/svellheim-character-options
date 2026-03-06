@@ -1,0 +1,37 @@
+{
+	"folders": [
+		{
+			"path": "../Era-of-Embers"
+		},
+		{
+			"path": "../draw-steel-foundry-vtt-mcp"
+		},
+		{
+			"path": "../Svellheim-Act1"
+		},
+		{
+			"path": "../Svellheim-Act2"
+		},
+		{
+			"path": "../Svellheim-Act3"
+		},
+		{
+			"path": "../Svellheim-Entities"
+		},
+		{
+			"path": "."
+		},
+		{
+			"path": "../draw-steel"
+		},
+		{
+			"path": "../draw-steel-negotiation-test-tool"
+		},
+		{
+			"path": "../draw-steel-montage-test-tool"
+		}
+	],
+	"settings": {
+		"powershell.cwd": "Era-of-Embers"
+	}
+}
