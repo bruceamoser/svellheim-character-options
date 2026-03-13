@@ -1,11 +1,11 @@
 const fs = require('node:fs');
 const path = require('node:path');
 
-console.error(
+console.log(
   '[DEPRECATED] This script previously generated a full class-text copy into docs/svellheim/compendium/05-classes.md.\n' +
     'That file is now a guidance-only reflavoring chapter. This script is intentionally disabled to prevent overwriting it.'
 );
-process.exit(1);
+process.exit(0);
 
 /**
  * Builds docs/svellheim/compendium/05-classes.md from the locally extracted

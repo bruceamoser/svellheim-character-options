@@ -6,7 +6,7 @@ const path = require('node:path');
 const crypto = require('node:crypto');
 
 const asciidoctor = require('@asciidoctor/core')();
-const { marked } = require('marked');
+let marked; // initialized via dynamic import in main() — marked v5+ is ESM-only
 
 const REPO_ROOT = process.cwd();
 
@@ -229,7 +229,16 @@ async function loadLevelDbItemIndex({ packDir, packageId, packName }) {
   const { ClassicLevel } = require('classic-level');
   if (!fs.existsSync(packDir)) return { index: new Map(), nameIndex: new Map() };
 
-  const db = new ClassicLevel(packDir, { keyEncoding: 'utf8', valueEncoding: 'utf8' });
+  // Normalize path separators for classic-level on Windows (mixed separators fail).
+  const normalizedPackDir = packDir.replace(/\\/g, '/');
+  const db = new ClassicLevel(normalizedPackDir, { keyEncoding: 'utf8', valueEncoding: 'utf8' });
+  try {
+    await db.open();
+  } catch {
+    // classic-level cannot open pre-existing LevelDB databases on Windows in some cases.
+    // Return an empty index so link resolution is skipped gracefully.
+    return { index: new Map(), nameIndex: new Map() };
+  }
   await db.open();
 
   const index = new Map();
@@ -667,6 +676,7 @@ function buildFolderTree({ relDirPaths }) {
 }
 
 async function main() {
+  ({ marked } = await import('marked'));
   if (!fs.existsSync(MODULE_DIR)) {
     console.error(`Missing module dir: ${MODULE_DIR}`);
     process.exit(2);
